@@ -1,0 +1,148 @@
+/*
+https://youtu.be/WyIiuB8NoqQ?si=ZX41BPI4shkybtv3
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* menu */
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 72px;
+    flex-shrink: 0;
+    background: var(--fundo-1, #182F58);
+}
+
+.icone_TrfSol{
+    width: auto;
+    margin: 5px 25px 5px 25px;
+}
+
+.nome_empresa{
+    width: auto;
+    margin: 18px 25px 18px 25px;
+}
+
+.barra_menu_itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* background-color: red; */
+    width: 100%;
+
+    a{
+        text-decoration: none;
+        color: var(--Branco, #FFF);
+        font-family: Nunito;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 31px; /* 163.158% */    
+    }
+}
+
+.menu_item{
+    display: inline-flex;
+    align-items: flex-start;
+
+    color: var(--Branco, #FFF);
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px; /* 163.158% */
+
+    margin: 18px 35px 18px 0px;
+}
+
+/* dobra 2 */
+.rectangle_5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 671px;
+    background: var(--Fundo-Cinza, #EFEFEF);
+}
+
+.title-service {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px 45px 0px;
+
+    color: var(--Texto, #162C59);
+
+    /* h2 Regular */
+    font-family: Nunito;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px; /* 123.529% */
+}
+
+.blocos_de_texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1232px; /* duvida aqui */
+    height: 464px;
+    /* border: 1px solid red; */
+    /* background-color: antiquewhite; */
+}
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+    height: 464px;
+    /* border: 1px solid red; */
+}
+
+.icone1 {
+    color: red;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.tit_servico1{
+    color: var(--Texto, #162C59);
+
+/* h3 Regular */
+font-family: Nunito;
+font-size: 41px;
+font-style: normal;
+/* font-weight: 400; */
+line-height: 51px; /* 124.39% */
+}
+
+.col1{
+    color: var(--Texto, #162C59);
+
+/* p Regular */
+font-family: Nunito;
+font-size: 27px;
+font-style: normal;
+/* font-weight: 400; */
+/* line-height: 43px;  159.259% */
+}
