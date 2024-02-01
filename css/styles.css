@@ -1,12 +1,13 @@
 /*
 https://youtu.be/WyIiuB8NoqQ?si=ZX41BPI4shkybtv3
+https://youtu.be/gRIWFYRaVto?si=srcQq0wnir9HoI13
 */
 
 * {
     box-sizing: border-box;
 }
 
-body {
+body, h1, h2 {
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #00002E;
+    width: 100%;
 }
 
 /* menu */
@@ -30,7 +32,7 @@ body {
 
 .icone_TrfSol{
     width: auto;
-    margin: 5px 25px 5px 25px;
+    margin: 5px 25px;
 }
 
 .nome_empresa{
@@ -152,6 +154,7 @@ h1.contraste_img {
 }
 
 .title-service {
+    margin: 0;
     display: flex;
     justify-content: center;
     padding: 35px 0px 45px 0px;
