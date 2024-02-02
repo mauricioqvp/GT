@@ -9,8 +9,8 @@ https://youtu.be/gRIWFYRaVto?si=srcQq0wnir9HoI13
 
 body, h1, h2 {
     margin: 0;
-    padding: 0;
-    display: flex;
+/*     padding: 0;
+    display: flex; */
 }
 
 .container{
@@ -141,9 +141,7 @@ header p{
 .rectangle_5 {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     align-items: center;
-    /* width: 100%; */
     height: 520px;
     background: var(--Fundo-Cinza, #EFEFEF);
 }
@@ -169,7 +167,6 @@ header p{
     width: 382px;
     height: auto;
 }
-
 
 .icone1 {
     color: red;
@@ -197,11 +194,87 @@ line-height: 51px; /* 124.39% */
 
 .col1{
     color: var(--Texto, #162C59);
+    font-family: Nunito;
+    font-size: 27px;
+    font-style: normal;
+}
 
-/* p Regular */
-font-family: Nunito;
-font-size: 27px;
-font-style: normal;
-/* font-weight: 400; */
-/* line-height: 43px;  159.259% */
+/* Dobra 3 */
+.fundo_azul_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../imgs/fundo_azul_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 646px;
+}
+.quadro_azul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: var(--Fundo-Cinza, #00002E); */
+    border: 4px solid rgba(98, 115, 228, 0.25);
+    background: rgba(85, 104, 198, 0.05);
+    /* opacity: .05; */
+    border-radius: 55px;
+    width: 90%;
+    height: 881px;
+    margin: 39px 0 39px;
+    color: #FFF;
+}
+.beneficios_gestao {
+    display: flex;
+    font-family: Nunito;
+    font-size: 44px;
+    color: #ffffff;
+    margin: 35px 95px;
+}
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 336px;
+    /* background-color: black; */
+    flex-wrap: wrap;
+}
+.beneficios_bloco {
+    width: 45%;
+    height: 180px;
+/*     background-color: #deceab;
+    border: 1px solid red; */
+    margin: 5px 8px;
+}
+.beneficios_titulo_1{
+    font-family: Nunito, sans-serif;
+    color: #F2B42D;
+    font-weight: 300;
+    font-size: 28px;
+}
+.beneficios_titulo_2{
+    font-family: Nunito, sans-serif;
+    color: #D7425E;
+    font-weight: 300;
+    font-size: 28px;    
+}
+.beneficios_titulo_3{
+    font-family: Nunito, sans-serif;
+    color: #DD785E;
+    font-weight: 300;
+    font-size: 28px;    
+}
+.beneficios_titulo_4{
+    font-family: Nunito, sans-serif;
+    color: #48A8E2;
+    font-weight: 300;
+    font-size: 28px;    
+}
+.beneficios_texto{
+    font-family: Nunito, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 4px;
 }
