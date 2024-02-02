@@ -27,6 +27,9 @@ nav {
     align-items: center;
     background: var(--fundo-1, #182F58);
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 3px 13px 12px #1d1e1ed1;
 }
 
 .empresa{
@@ -77,6 +80,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff;
+    margin-top: 70px;
     padding: 20px;
 }
 
@@ -145,6 +149,7 @@ header p{
     height: 520px;
     background: var(--Fundo-Cinza, #EFEFEF);
 }
+
 .title-service {
     display: flex;
     text-align: center;
@@ -155,12 +160,14 @@ header p{
     font-size: 68px;
     line-height: 84px;
 }
+
 .blocos_de_texto {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .bloco {
     display: flex;
     flex-direction: row;
@@ -210,6 +217,7 @@ line-height: 51px; /* 124.39% */
     background-position: center;
     height: 646px;
 }
+
 .quadro_azul{
     display: flex;
     flex-direction: column;
@@ -219,26 +227,37 @@ line-height: 51px; /* 124.39% */
     background: rgba(85, 104, 198, 0.05);
     /* opacity: .05; */
     border-radius: 55px;
-    width: 90%;
+    width: 75%;
     height: 881px;
     margin: 39px 0 39px;
     color: #FFF;
 }
+
 .beneficios_gestao {
     display: flex;
     font-family: Nunito;
     font-size: 44px;
     color: #ffffff;
     margin: 35px 95px;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
 }
+
 .beneficios {
     display: flex;
     flex-direction: row;
-    width: 65%;
-    height: 336px;
+    /* width: 65%; */
+    /* height: 336px; */
     /* background-color: black; */
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 11px;
+    margin-left: 157px;
 }
+
 .beneficios_bloco {
     width: 45%;
     height: 180px;
@@ -246,6 +265,7 @@ line-height: 51px; /* 124.39% */
     border: 1px solid red; */
     margin: 5px 8px;
 }
+
 .beneficios_titulo_1{
     font-family: Nunito, sans-serif;
     color: #F2B42D;
@@ -258,18 +278,21 @@ line-height: 51px; /* 124.39% */
     font-weight: 300;
     font-size: 28px;    
 }
+
 .beneficios_titulo_3{
     font-family: Nunito, sans-serif;
     color: #DD785E;
     font-weight: 300;
     font-size: 28px;    
 }
+
 .beneficios_titulo_4{
     font-family: Nunito, sans-serif;
     color: #48A8E2;
     font-weight: 300;
     font-size: 28px;    
 }
+
 .beneficios_texto{
     font-family: Nunito, sans-serif;
     color: #fff;
