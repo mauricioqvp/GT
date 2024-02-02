@@ -68,37 +68,30 @@ nav ul li a {
 }
 
 /* dobra 1 */
-.figura{
+header {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    /* color: aqua;
-    border: 2px solid green; */
-    
-    .img {
-        width: 100%;
-        height: 800px;
-        background-image: url("../imgs/Lampada.png");
-        background-repeat: no-repeat; 
-        background-size: cover;       
-    }
+    /* flex-direction: column; */
+    align-items: center;
+    background-image: url(../imgs/Lampada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    padding: 20px;
 }
 
-.gestao_img{
-    width: 600px;
-    height: 435px;
-    margin-top: 10px;
-    margin-left: 25px;
-    /* background-color: aqua; */
+.bloco_header{
+    width: 60%;
+    height: 600px;
+    margin-top: 1em;
+}
 
-    /* teste de posicionamento */
-    /* border: 2px solid green; */
-    position: absolute; 
-    top: 0px; 
-    left: -630px; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto;
+header h1{
+    color: #ffffff;
+}
+
+header p{
+    margin-bottom: 2em;
 }
 
 .contraste_img{
@@ -110,17 +103,12 @@ nav ul li a {
     font-style: normal;
     font-weight: 600;
     line-height: 65px; /* 125% */  
-}
-
-h1.contraste_img {
     margin: 0;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
 .servicos_img{
     color: #FFF;
-
-    /* h2 Contraste img */
     font-family: Nunito;
     font-size: 24px;
     font-style: normal;
@@ -129,23 +117,24 @@ h1.contraste_img {
     line-height: 28px; /* 116.667% */
 }
 
-.botao{
+.a_botao{
+    text-decoration: none;
+    font-family: "nunito", sans-serif;
+    font-size: 18px;
+    color: #cf2727;
+    cursor: pointer;
+}
+
+.botao {
     display: inline-flex;
     padding: 10px 20px;
     justify-content: center;
     align-items: center;
     border: 1px solid #9a9a9a;
-    gap: 10px;
     border-radius: 20px;
     background: #F2B42D;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    
-}
-
-.a_botao{
-    text-decoration: none;
-    color: #454545;
-    cursor: pointer;
+    color: #505152;
 }
 
 /* dobra 2 */
