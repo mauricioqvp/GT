@@ -141,45 +141,35 @@ header p{
 .rectangle_5 {
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
-    width: 100%;
-    height: 671px;
+    /* width: 100%; */
+    height: 520px;
     background: var(--Fundo-Cinza, #EFEFEF);
 }
-
 .title-service {
-    margin: 0;
     display: flex;
+    text-align: center;
     justify-content: center;
     padding: 35px 0px 45px 0px;
-
     color: var(--Texto, #162C59);
-
-    /* h2 Regular */
     font-family: Nunito;
     font-size: 68px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 84px; /* 123.529% */
+    line-height: 84px;
 }
-
-.blocos_de_texto{
+.blocos_de_texto {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 1232px; /* duvida aqui */
-    height: 464px;
-    /* border: 1px solid red; */
-    /* background-color: antiquewhite; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-
 .bloco {
     display: flex;
     flex-direction: row;
     width: 382px;
-    height: 464px;
-    /* border: 1px solid red; */
+    height: auto;
 }
+
 
 .icone1 {
     color: red;
