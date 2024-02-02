@@ -21,45 +21,50 @@ body, h1, h2 {
 }
 
 /* menu */
-.menu{
+nav {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 72px;
-    flex-shrink: 0;
+    align-items: center;
     background: var(--fundo-1, #182F58);
+    justify-content: space-between;
+}
+
+.empresa{
+    display: flex;
+    flex-direction: row;
+
 }
 
 .icone_TrfSol{
-    width: auto;
+    width: 75px;
     margin: 5px 25px;
 }
 
 .nome_empresa{
-    width: auto;
+    width: 200px;
     margin: 18px 25px 18px 25px;
 }
 
-.barra_menu_itens {
+nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    /* background-color: red; */
-    width: 100%;   
+    font-family: "nunito", sans-serif;
+    font-size: 18px;
+    align-items: flex-end;
+    list-style: none;
 }
 
-.menu_item{
-    display: inline-flex;
-    align-items: flex-start;
+nav ul li {
+    display: flex;
+    justify-content: center;
+    margin: 5px 14px;
+}
 
-    color: var(--Branco, #ffffff);
-    font-family: Nunito;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 31px; /* 163.158% */
-    cursor: pointer;   
-    margin: 18px 35px 18px 0px;
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* dobra 1 */
