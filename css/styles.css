@@ -223,7 +223,7 @@ line-height: 51px; /* 124.39% */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 748px;
+    height: 100%;
 }
 
 .quadro_azul {
@@ -233,7 +233,7 @@ line-height: 51px; /* 124.39% */
     background: rgba(85, 104, 198, 0.05);
     border-radius: 55px;
     width: 75%;
-    height: 881px;
+    height: auto;
     margin: 39px 0 39px;
 }
 
@@ -255,7 +255,7 @@ line-height: 51px; /* 124.39% */
     flex-direction: row;
     flex-wrap: wrap;
     gap: 11px;
-    margin-left: 25px;
+    margin-left: 65px;
 }
 
 .beneficios_bloco {
@@ -294,168 +294,3 @@ line-height: 51px; /* 124.39% */
     padding: 10px 4px;
 }
 
-/* Media Queries */
-/* até 800px */
-/* menu */
-@media screen and (max-width: 800px){
-/* Menu */
-    nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background: var(--fundo-1, #ba2650);
-        justify-content: space-between;
-        position: fixed;
-        width: 100%;
-        box-shadow: 0px 3px 13px 12px #1d1e1ed1;
-    }
-
-    .barra_menu_itens{
-        visibility: hidden;
-    }
-
-    /* Colocar Sanduiche */
-    /* Dobra 1 */
-    header {
-        display: flex;
-        /* flex-direction: column; */
-        align-items: center;
-        background-image: url(../imgs/Lampada.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        color: #ffffff;
-        margin-top: 70px;
-        padding: 20px;
-    }
-
-    .bloco_header{
-        width: 60%;
-        height: 600px;
-        margin-top: 1em;
-        /* background-color: #48A8E2; */
-    }
-
-    header h1{
-        color: #ffffff;
-    }
-
-    header p{
-        margin-bottom: 2em;
-    }
-
-    .contraste_img{
-        color: #ffffff;
-
-        /* h1 Contraste img */
-        font-family: Nunito;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 125%;  
-        margin: 0;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
-    }
-
-    .servicos_img{
-        color: #FFF;
-        font-family: Nunito;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        line-height: 24px; /* 116.667% */
-    }
-
-    .a_botao{
-        text-decoration: none;
-        font-family: "nunito", sans-serif;
-        font-size: 14px;
-        color: #cf2727;
-        cursor: pointer;
-    }
-
-    .botao {
-        display: inline-flex;
-        padding: 7px 12px;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #9a9a9a;
-        border-radius: 20px;
-        background: #F2B42D;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #505152;
-    }
-
-    /* dobra 2 */
-    .rectangle_5 {
-        display: flex;
-        flex-direction: column;
-        height: 430px;
-        background: var(--Fundo-Cinza, #EFEFEF);
-    }
-
-    .title-service {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        padding: 5px 0px 5px 0px;
-        color: var(--Texto, #162C59);
-        font-family: Nunito;
-        font-size: 38px;
-        line-height: 84px;
-    }
-
-    .blocos_de_texto {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-
-    .bloco {
-        display: flex;
-        flex-direction: row;
-        width: 382px;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .icone1 {
-        margin-top: 11px;
-        margin-right: 4px;
-        margin-left: 5px;
-
-        img {
-            width: 30px;
-            height: 30px;
-        }
-    }
-
-    .textos{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tit_servico1{
-        color: var(--Texto, #162C59);
-
-    /* h3 Regular */
-    font-family: Nunito;
-    font-size: 26px;
-    font-style: normal;
-    /* font-weight: 400; */
-    line-height: 51px; /* 124.39% */
-    }
-
-    .col1 {
-        color: var(--Texto, #162C59);
-        font-family: Nunito;
-        font-size: 18px;
-        font-style: normal;
-        line-height: 1.35;
-    }
-
-    /* Dobra 3 */
-
-}
