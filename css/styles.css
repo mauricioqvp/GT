@@ -294,3 +294,68 @@ line-height: 51px; /* 124.39% */
     padding: 10px 4px;
 }
 
+/* Dobra 4 */
+.rectangle_6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background: var(--Fundo-Cinza, #EFEFEF);
+}
+
+.title-service {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 35px 0px 45px 0px;
+    color: var(--Texto, #162C59);
+    font-family: Nunito;
+    font-size: 68px;
+    line-height: 84px;
+}
+
+.blocos_de_texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+    height: auto;
+}
+
+.icone1 {
+    color: red;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.tit_servico1{
+    color: var(--Texto, #162C59);
+
+/* h3 Regular */
+font-family: Nunito;
+font-size: 41px;
+font-style: normal;
+/* font-weight: 400; */
+line-height: 51px; /* 124.39% */
+}
+
+.col1{
+    color: var(--Texto, #162C59);
+    font-family: Nunito;
+    font-size: 27px;
+    font-style: normal;
+}
