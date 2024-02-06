@@ -342,15 +342,14 @@ line-height: 51px; /* 124.39% */
     flex-direction: column;
 }
 
-.tit_servico1{
+.tit_servico1 {
     color: var(--Texto, #162C59);
-
-/* h3 Regular */
-font-family: Nunito;
-font-size: 41px;
-font-style: normal;
-/* font-weight: 400; */
-line-height: 51px; /* 124.39% */
+    font-family: Nunito;
+    font-size: 41px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 51px;
+    margin-bottom: 25px;
 }
 
 .col1{
@@ -358,6 +357,7 @@ line-height: 51px; /* 124.39% */
     font-family: Nunito;
     font-size: 27px;
     font-style: normal;
+    width: 80%;
 }
 
 /* Dobra 5 */
@@ -475,3 +475,182 @@ line-height: 51px; /* 124.39% */
     padding: 10px 4px;
 }
 
+/* Dobra 6 */
+.rectangle_6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background: var(--Fundo-Cinza, #EFEFEF);
+}
+
+.title-service {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 35px 0px 45px 0px;
+    color: var(--Texto, #162C59);
+    font-family: Nunito;
+    font-size: 68px;
+    line-height: 84px;
+}
+
+.blocos_de_texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.icone1 {
+    color: red;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(56, 58, 209); */
+}
+
+.tit_servico1 {
+    color: var(--Texto, #162C59);
+    font-family: Nunito;
+    font-size: 41px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 51px;
+    margin-bottom: 25px;
+}
+
+.col1{
+    color: var(--Texto, #162C59);
+    font-family: Nunito;
+    font-size: 27px;
+    font-style: normal;
+    width: auto;
+    /* border: 1px solid rgb(203, 25, 138); */
+}
+
+/* Bloco 8 */
+.fundo_azul_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../imgs/fundo_consultoria_completa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.quadro_azul_elipse {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgba(98, 115, 228, 0.25);
+    background: rgba(85, 104, 198, 0.05);
+    border-radius: 55px;
+    width: 75%;
+    height: auto;
+    margin: 39px 0 39px;
+}
+
+.beneficios_gestao {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: Nunito;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 35px 95px;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 11px;
+    margin-left: 65px;
+}
+
+.beneficios_bloco {
+    width: 45%;
+    margin: 5px 8px;
+}
+
+.beneficios_titulo{
+    font-family: Nunito, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.beneficios_bloco .cor_1{
+    color: #F2B42D;
+}
+
+.beneficios_bloco .cor_2{
+    color: #D7425E;   
+}
+
+.beneficios_bloco .cor_3{
+    color: #1cce28;
+}
+
+.beneficios_bloco .cor_4{
+    color: #48A8E2;  
+}
+
+.beneficios_texto{
+    font-family: Nunito, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 4px;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icone_myspace{
+    width: 90px;
+    height: 90px;
+}
+
+.contato_conosco{
+    font-family: Nunito, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 4px;
+}
+
+.btn_peca_consultoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
