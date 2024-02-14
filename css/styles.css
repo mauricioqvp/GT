@@ -445,6 +445,12 @@ line-height: 51px; /* 124.39% */
     background-image: url(../imgs/fundo_consultoria_completa.png);
 }
 
+.beneficios_nowarp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .quadro_azul_elipse {
     display: flex;
     flex-direction: column;
