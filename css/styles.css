@@ -299,10 +299,6 @@ line-height: 51px; /* 124.39% */
     background: var(--Fundo-Cinza, #EFEFEF);
 }
 
-.blocos_de_texto {
-    margin-bottom: 60px;
-}
-
 .tit_servico1 {
     color: var(--Texto, #162C59);
     font-family: Nunito;
@@ -312,13 +308,17 @@ line-height: 51px; /* 124.39% */
     margin-bottom: 25px;
 }
 
-.col1{
+.blocos_de_texto {
+    margin-bottom: 60px;
+}
+
+/* .col1{
     color: var(--Texto, #162C59);
     font-family: Nunito;
     font-size: 27px;
     font-style: normal;
     width: 80%;
-}
+} */
 
 /* Dobra 5 */
 .fundo_azul_2 {
@@ -432,13 +432,13 @@ line-height: 51px; /* 124.39% */
     margin-bottom: 25px;
 }
 
-.col1{
+/* .col1{
     color: var(--Texto, #162C59);
     font-family: Nunito;
     font-size: 27px;
-    font-style: normal;
+    font-style: normal; 
     width: auto;
-}
+}*/
 
 /* Bloco 8 */
 .figura_2 {
@@ -446,8 +446,8 @@ line-height: 51px; /* 124.39% */
 }
 
 .beneficios_nowarp{
-    display: flex;
-    flex-direction: row;
+/*     display: flex;
+    flex-direction: row; */
     flex-wrap: nowrap;
 }
 
