@@ -243,7 +243,7 @@ line-height: 51px; /* 124.39% */
     font-family: Nunito;
     font-size: 36px;
     color: #ffffff;
-    margin: 35px 95px;
+    margin: 25px 95px;
 }
 
 .beneficios {
@@ -454,19 +454,6 @@ line-height: 51px; /* 124.39% */
     width: 75%;
     height: auto;
     margin: 39px 0 39px;
-}
-
-.beneficios_gestao {
-    display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-    font-family: Nunito;
-    font-size: 36px;
-    color: #ffffff;
-    margin: 35px 95px;
 }
 
 .beneficios_titulo{
