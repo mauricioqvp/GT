@@ -3,7 +3,7 @@
 /* menu */
 @media screen and (max-width: 800px){
     /* Menu */
-        nav {
+/*         nav {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -16,13 +16,13 @@
     
         .barra_menu_itens{
             visibility: hidden;
-        }
+        } */
     
         /* Colocar Sanduiche */
+
         /* Dobra 1 */
-        header {
+        main {
             display: flex;
-            /* flex-direction: column; */
             align-items: center;
             background-image: url(../imgs/Lampada.png);
             background-size: cover;
@@ -33,18 +33,18 @@
             padding: 20px;
         }
     
-        .bloco_header{
+        .bloco_main{
             width: 60%;
             height: 600px;
             margin-top: 1em;
             /* background-color: #48A8E2; */
         }
     
-        header h1{
+        main h1{
             color: #ffffff;
         }
     
-        header p{
+        main p{
             margin-bottom: 2em;
         }
     
@@ -95,7 +95,7 @@
         .rectangle_5 {
             display: flex;
             flex-direction: column;
-            height: 430px;
+            height: auto;
             background: var(--Fundo-Cinza, #EFEFEF);
         }
     
@@ -115,6 +115,7 @@
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            /* margin-bottom: 60px; */
         }
     
         .bloco {

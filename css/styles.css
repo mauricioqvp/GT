@@ -23,7 +23,7 @@ a {
   }
 
 .header {
-background: #a5c;
+background: var(--fundo-1, #182F58);
 padding-inline: 16px;
 }
 
@@ -37,6 +37,35 @@ justify-content: space-between;
 align-items: center;
 }
 
+
+.nav {
+    /* max-width: 1280px; */
+    height: 70px;
+    /* margin-inline: auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+
+
+
+.empresa{
+    display: flex;
+    flex-direction: row;
+}
+
+.icone_TrfSol{
+    width: 75px;
+    margin: 5px 25px;
+}
+
+.nome_empresa {
+    width: 200px;
+    margin: 18px 25px 0px 0px;
+}
+
 .logo {
 font-size: 48px;
 }
@@ -47,11 +76,38 @@ gap: 32px;
 list-style: none;
 }
 
+
+
+.nav-list {
+    display: flex;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* min-width: 650px; */
+    gap: 2vw;
+    list-style: none;
+    /* background-color: #f5dce8; */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
 .nav-list a {
 font-size: 18px;
 color: #fff;
 padding-block: 16px;
 }
+
+
+.nav-list a {
+    font-size: 1.3vw;
+    color: #fff;
+    padding-block: 16px;
+}
+
+
 
 .hero {
 height: calc(100vh - 70px);
@@ -78,7 +134,7 @@ position: relative;
 transition: 0.3s;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 918px) {
 .hamburger {
     display: block;
     z-index: 1;
@@ -90,8 +146,8 @@ transition: 0.3s;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: #a5c;
-    clip-path: circle(100px at 90% -15%);
+    background: #182f58;
+    clip-path: circle(100px at 90% -25%);
     transition: 1s ease-out;
 
     flex-direction: column;
@@ -117,6 +173,30 @@ transition: 0.3s;
 
 .nav-list li:nth-child(3) a {
     transition: 0.5s 0.6s;
+}
+
+.nav-list li:nth-child(4) a {
+    transition: 0.5s 0.8s;
+}
+
+.nav-list li:nth-child(5) a {
+    transition: 0.5s 1.0s;
+}
+
+.nav-list li:nth-child(6) a {
+    transition: 0.5s 1.2s;
+}
+
+.nav-list li:nth-child(7) a {
+    transition: 0.5s 1.4s;
+}
+
+.nav-list li:nth-child(8) a {
+    transition: 0.5s 1.6s;
+}
+
+.nav-list li:nth-child(9) a {
+    transition: 0.5s 1.8s;
 }
 
 /* Estilos ativos */
@@ -159,21 +239,6 @@ transition: 0.3s;
     box-shadow: 0px 3px 13px 12px #1d1e1ed1;
 }
 
-.empresa{
-    display: flex;
-    flex-direction: row;
-}
-
-.icone_TrfSol{
-    width: 75px;
-    margin: 5px 25px;
-}
-
-.nome_empresa {
-    width: 200px;
-    margin: 18px 25px 0px 0px;
-}
-
 nav ul {
     display: flex;
     flex-direction: row;
@@ -209,7 +274,6 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     color: #ffffff;
-    margin-top: 70px;
     padding: 20px;
 }
 
@@ -276,7 +340,7 @@ main p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 570px;
+    height: auto;
     background: var(--Fundo-Cinza, #EFEFEF);
 }
 
