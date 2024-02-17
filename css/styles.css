@@ -47,12 +47,9 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
-    /* width: 50%; */
     font-family: "nunito", sans-serif;
-    font-size: 18px;
+    font-size: 3vh;
     align-items: center;
-    list-style: none;
-    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 }
