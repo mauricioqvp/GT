@@ -21,27 +21,26 @@
     <!-- Menu -->
     <header class="header">
         <nav class="nav">
-            <!-- <a href="/" class="logo">🐅</a> -->
             <div class="empresa">
                 <div class="icone_TrfSol"><img src="./imgs/icone_TrfSol.svg" alt="Planejamento estratégico"></div>
                 <div class="nome_empresa"><img src="./imgs/Nome da empresa.svg" alt="Planejamento estratégico"></div>
             </div>
             <button class="hamburger"></button>
             <ul class="nav-list">
-                <li><a href="#" target="_self" alt="Início">Início</a></li>
-                <li><a href="http://www.google.com" target="_self" alt="Serviços">Serviços</a></li>
-                <li><a href="#" target="_self" alt="Benefícios">Benefícios</a></li>
-                <li><a href="#" target="_self" alt="Sua Empresa">Sua Empresa</a></li>
-                <li><a href="#" target="_self" alt="Clientes">Clientes</a></li>
-                <li><a href="#" target="_self" alt="Equipe">Equipe</a></li>
-                <li><a href="#" target="_self" alt="O Processo">O Processo</a></li>
-                <li><a href="#" target="_self" alt="Contato">Contato</a></li>
+                <li><a href="#inicio" target="_self" alt="Início">Início</a></li>
+                <li><a href="#servicos" target="_self" alt="Serviços">Serviços</a></li>
+                <li><a href="#beneficios" target="_self" alt="Benefícios">Benefícios</a></li>
+                <li><a href="#suaempresa" target="_self" alt="Sua Empresa">Sua Empresa</a></li>
+                <li><a href="#clientes" target="_self" alt="Clientes">Clientes</a></li>
+                <li><a href="#equipe" target="_self" alt="Equipe">Equipe</a></li>
+                <li><a href="#oprocesso" target="_self" alt="O Processo">O Processo</a></li>
+                <li><a href="#contato" target="_self" alt="Contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <!-- Dobra 1-->
     <main>
-        <div class="bloco_main">
+        <div id="inicio" class="bloco_main">
             <h1 class="contraste_img">Gestão de Tráfego Pago: Aumente Sua Presença Online</h1>
             <p class="servicos_img">Oferecemos serviços de Gestão de Tráfego Pago para empresas que desejam expandir sua presença na web e criar uma imagem positiva nas redes sociais. Nossa equipe especializada cuida da sua presença virtual, impulsionando seus negócios.</p>
             <div>
@@ -53,7 +52,7 @@
     </main>
 
     <!-- Dobra 2 -->
-    <section class="rectangle_5">
+    <section id="servicos" class="rectangle_5">
             <h2 class="title-service">Serviços de Gestão de Tráfego Pago</h2>
             <div class="blocos_de_texto">
                 <div class="bloco">
@@ -81,7 +80,7 @@
     </section>
 
     <!-- Dobra 3 -->
-    <section class="fundo_azul_1">
+    <section id="beneficios" class="fundo_azul_1">
         <div class="quadro_azul">
             <h2 class="beneficios_gestao">Benefícios da Gestão de Tráfego Pago</h2>
             <div class="beneficios">
@@ -122,7 +121,7 @@
     </section>
 
     <!-- Dobra 4 -->
-    <section class="rectangle_6">
+    <section id="suaempresa" class="rectangle_6">
         <h2 class="title-service">Como Podemos Ajudar Sua Empresa</h2>
         <div class="blocos_de_texto">
             <div class="bloco">
@@ -150,7 +149,7 @@
     </section>
 
     <!-- Dobra 5-->
-    <section class="fundo_azul_2">
+    <section id="clientes" class="fundo_azul_2">
         <div class="quadro_azul_2">
             <h2 class="clientes_satisfeitos">Nossos Clientes Satisfeitos</h2>
             <div class="beneficios">
@@ -171,7 +170,7 @@
     </section> 
     
     <!-- Dobra 6 -->
-    <section class="rectangle_6">
+    <section id="equipe" class="rectangle_6">
         <h2 class="title-service">Experiência e Expertise da Nossa Equipe</h2>
         <div class="blocos_de_texto">
             <div class="bloco">
@@ -202,7 +201,7 @@
 
 
     <!-- Bloco 8 -->
-    <section class="fundo_azul_1 figura_2">
+    <section id="contato" class="fundo_azul_1 figura_2">
         <div class="quadro_azul_elipse">
             <h2 class="beneficios_gestao">Peça uma Consultoria Completa</h2>
             <div class="beneficios beneficios_nowarp">
@@ -215,7 +214,58 @@
                 </a>
             </div>
         </div>
-    </section>    
+    </section>
+    
+    <!-- Bloco 9 -->
+    <section id="#formulario" class="formulario">
+        <form class="form_1">
+            <div class="linha_1">
+                <input type="text" name="fnome" class="input_txt_1" required="true" value="Nome" >
+                <input type="text" name="fnome" class="input_txt_1" required="true" value="E-mail" >
+                <input type="text" name="fnome" class="input_txt_1" required="true" value="Telefone ou Whatsapp" >
+                <input type="text" name="fnome" class="input_txt_1" required="true" value="Nome da empresa" >
+            </div>
+
+            <div class="linha_2">
+                <input type="text" name="fnome" class="input_txt_2" required="true" value="Site da empresa">
+            </div>
+
+            <div class="linha_3">
+                <select id="cargo" name="cargo" class="select_cargo">
+                    <option value="Seu cargo">Seu cargo</option>
+                    <option value="Gerente / Coordenador(a)">Gerente / Coordenador(a)</option>
+                    <option value="Diretor(a)">Diretor(a)</option>
+                    <option value="Dono(a) / Sócio(a) / CEO">Dono(a) / Sócio(a) / CEO</option>
+                    <option value="Freelancer / Consultor">Freelancer / Consultor</option>
+                    <option value="Outros Cargos">Outros Cargos</option>
+                </select>
+
+                <select id="investimento" name="investimento" class="select_investimento">
+                    <option value="Seu cargo">Qual investimento médio mensal da sua empresa em marketing digital?</option>
+                    <option value="de R$ 500,00 a R$ 1.000,00">de R$ 500,00 a R$ 1.000,00</option>
+                    <option value="de R$ 1.000,00 a R$ 3.000,00">de R$ 1.000,00 a R$ 3.000,00</option>
+                    <option value="de R$ 3.000,00 a R$ 5.000,00">de R$ 3.000,00 a R$ 5.000,00</option>
+                    <option value="Mais de R$ 5.000,00">Mais de R$ 5.000,00</option>
+                    <option value="Ainda não investimos em marketing digital">Ainda não investimos em marketing digital</option>
+                </select>
+            </div>
+
+            <div class="linha_4">
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+                    Qual o tipo de ajuda que você precisa?
+                </textarea>
+            </div>
+
+            <div class="linha_5">
+                <input type="checkbox" id="receber_email" name="freceber" value="receber">
+                <label for="receber_email">Gostaria de receber nossos e-mails personalizados com estratégias e materiais sobre marketing digital?*</label><br>
+            </div>
+
+            <div class="linha_6">
+                <input type="button" onclick="alert('Hello World!')" id="receber_email" name="freceber" value="Enviar">
+            </div>
+        </form>
+    </section>
 </div>
 </body>
 </html>
