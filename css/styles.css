@@ -704,7 +704,7 @@ input{
     align-items: center;
 }
 
-.linha_3{
+.linha_3 {
     display: flex;
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -715,15 +715,78 @@ input{
     padding: 7px;
     border-radius: 5px;
     flex-direction: row;
-    align-content: center;
-    justify-content: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
+select {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5em;
+    color: #888888;
+    width: 45%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.3em;
+}
+
+/* .select_investimento{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5em;
+    color: #888888;
+    width: 45%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.3em;
+} */
+
 .input_txt_3{
-    width: 25%;
+    width: 30%;
+    line-height: 2em;
 }
 
 .input_txt_4{
     width: 65%;
+}
+
+.linha_4 {
+    display: flex;
+    background-color: #b3b47e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 16vh;
+}
+
+#txt_area {
+    display: flex;
+    flex-direction: row;
+    background-color: #767ab3;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 95%;
+    height: 6em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    padding: 5px 10px;
+}
+
+.linha_5{
+    background-color: #b3b47e;
+    padding: 15px;
 }
